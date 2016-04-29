@@ -1,2 +1,2 @@
-var getMaterialColor = require('./lib').getMaterialColor
+var getMaterialColor = require('rmdc').getMaterialColor
 console.log(getMaterialColor('A400'))
