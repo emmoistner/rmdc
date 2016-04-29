@@ -1,6 +1,6 @@
 {
   "name": "rmdc",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Simple javascript utility that returns random color from the material design palette",
   "main": "./lib/index.js",
   "scripts": {
