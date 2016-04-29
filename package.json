@@ -1,0 +1,33 @@
+{
+  "name": "rmdc",
+  "version": "0.1.0",
+  "description": "Simple javascript utility that returns random color from the material design palette",
+  "main": "./lib/index.js",
+  "scripts": {
+    "build": "babel src -d lib --copy-files",
+    "prepublish": "npm run build"
+  },
+  "keywords": [
+    "material",
+    "design",
+    "color",
+    "random",
+    "UI",
+    "rmdc"
+  ],
+  "devDependencies": {
+    "babel-cli": "^6.7.7",
+    "babel-plugin-transform-es2015-modules-commonjs-simple": "^6.7.4",
+    "babel-preset-es2015-webpack": "^6.4.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emmoistner/rmdc.git"
+  },
+  "author": "emmoistner",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/emmoistner/rmdc/issues"
+  },
+  "homepage": "https://github.com/emmoistner/rmdc#readme"
+}
